@@ -10,5 +10,9 @@ public class normalTweetModel extends LonelyTweetModel {
 	public void setText(String text) {
 	}
 
+	@Override
+	public Boolean checkImportantTweetModel() {
+		return false;	
+	}
 }
 

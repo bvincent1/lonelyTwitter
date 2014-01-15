@@ -2,6 +2,8 @@ package ca.ualberta.cs.lonelytwitter;
 
 import java.util.Date;
 
+import android.R.bool;
+
 public class importantLonelyTweetModel extends LonelyTweetModel {
 
 	public importantLonelyTweetModel(String text, Date timestamp) {
@@ -14,6 +16,11 @@ public class importantLonelyTweetModel extends LonelyTweetModel {
 
 	public void setText(String text) {
 		this.text = text;
+	}
+
+	@Override
+	public Boolean checkImportantTweetModel() {
+		return true;		
 	}
 
 }

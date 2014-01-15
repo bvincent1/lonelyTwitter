@@ -8,6 +8,7 @@ public abstract class LonelyTweetModel {
 	protected Date timestamp;
 
 	public abstract void setText(String text);
+	public abstract Boolean checkImportantTweetModel();
 
 	public Date getTimestamp() {
 		return timestamp;
