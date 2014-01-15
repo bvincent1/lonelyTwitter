@@ -18,6 +18,9 @@ public abstract class LonelyTweetModel {
 		this.timestamp = timestamp;
 	}
 
+	public String getText() {
+		return text;
+	}
 	public LonelyTweetModel(String text, Date timestamp) {
 		super();
 		this.text = text;
